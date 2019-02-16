@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a916b4-aae8-4b68-b29a-9692d2c52ada" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogPostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogPostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog-posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog-posts/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/ViewBlogPostsPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ViewBlogPostsPage.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Feature/ViewBlogPostsPage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="538">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="e#33#50#0#PHP" expanded="true" />
               </folding>
@@ -48,6 +49,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/BlogPostController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ViewBlogPostsPage.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_02_15_235158_create_blog_posts_table.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/BlogPostTest.php" />
+        <option value="$PROJECT_DIR$/resources/views/blog-posts/index.blade.php" />
       </list>
     </option>
   </component>
@@ -211,13 +215,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.ViewBlogPostsPage.blog_posts_are_listed_in_reverse_chronological_order">
+  <component name="RunManager" selected="PHPUnit.ViewBlogPostsPage.blog_posts_titles_are_shown">
+    <configuration name="BlogPostTest.it_has_a_title" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\BlogPostTest" file="$PROJECT_DIR$/tests/Unit/BlogPostTest.php" method="it_has_a_title" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="ViewBlogPostsPage" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ViewBlogPostsPage" file="$PROJECT_DIR$/tests/Feature/ViewBlogPostsPage.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="ViewBlogPostsPage.blog_posts_are_listed_in_reverse_chronological_order" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ViewBlogPostsPage" file="$PROJECT_DIR$/tests/Feature/ViewBlogPostsPage.php" method="blog_posts_are_listed_in_reverse_chronological_order" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ViewBlogPostsPage.blog_posts_titles_are_shown" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ViewBlogPostsPage" file="$PROJECT_DIR$/tests/Feature/ViewBlogPostsPage.php" method="blog_posts_titles_are_shown" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="ViewBlogPostsPage.it_lists_the_blog_posts" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -230,6 +242,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.ViewBlogPostsPage.blog_posts_titles_are_shown" />
+        <item itemvalue="PHPUnit.BlogPostTest.it_has_a_title" />
         <item itemvalue="PHPUnit.ViewBlogPostsPage.blog_posts_are_listed_in_reverse_chronological_order" />
         <item itemvalue="PHPUnit.ViewBlogPostsPage" />
         <item itemvalue="PHPUnit.ViewBlogPostsPage.it_lists_the_blog_posts" />
@@ -246,44 +260,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550273247807</updated>
-      <workItem from="1550273249502" duration="3521000" />
+      <workItem from="1550273249502" duration="4292000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ViewBlogPostsPage_it_lists_the_blog_posts - 2019.02.15 at 18h 06m 36s.xml">
-      <configuration name="ViewBlogPostsPage.it_lists_the_blog_posts" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ViewBlogPostsPage_it_lists_the_blog_posts - 2019.02.15 at 18h 06m 56s.xml">
-      <configuration name="ViewBlogPostsPage.it_lists_the_blog_posts" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ViewBlogPostsPage_it_lists_the_blog_posts - 2019.02.15 at 18h 07m 08s.xml">
-      <configuration name="ViewBlogPostsPage.it_lists_the_blog_posts" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ViewBlogPostsPage_it_lists_the_blog_posts - 2019.02.15 at 18h 07m 51s.xml">
-      <configuration name="ViewBlogPostsPage.it_lists_the_blog_posts" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ViewBlogPostsPage_it_lists_the_blog_posts - 2019.02.15 at 18h 09m 24s.xml">
-      <configuration name="ViewBlogPostsPage.it_lists_the_blog_posts" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ViewBlogPostsPage_blog_posts_are_listed_in_reverse_chronological_order - 2019.02.15 at 18h 26m 13s.xml">
-      <configuration name="ViewBlogPostsPage.blog_posts_are_listed_in_reverse_chronological_order" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ViewBlogPostsPage_blog_posts_are_listed_in_reverse_chronological_order - 2019.02.15 at 18h 31m 47s.xml">
-      <configuration name="ViewBlogPostsPage.blog_posts_are_listed_in_reverse_chronological_order" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ViewBlogPostsPage - 2019.02.15 at 18h 31m 50s.xml">
-      <configuration name="ViewBlogPostsPage" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ViewBlogPostsPage_blog_posts_are_listed_in_reverse_chronological_order - 2019.02.15 at 18h 41m 49s.xml">
-      <configuration name="ViewBlogPostsPage.blog_posts_are_listed_in_reverse_chronological_order" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="ViewBlogPostsPage_blog_posts_are_listed_in_reverse_chronological_order - 2019.02.15 at 18h 42m 03s.xml">
       <configuration name="ViewBlogPostsPage.blog_posts_are_listed_in_reverse_chronological_order" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="ViewBlogPostsPage_blog_posts_titles_are_shown - 2019.02.15 at 18h 45m 26s.xml">
+      <configuration name="ViewBlogPostsPage.blog_posts_titles_are_shown" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ViewBlogPostsPage_blog_posts_titles_are_shown - 2019.02.15 at 18h 45m 39s.xml">
+      <configuration name="ViewBlogPostsPage.blog_posts_titles_are_shown" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ViewBlogPostsPage_blog_posts_titles_are_shown - 2019.02.15 at 18h 46m 14s.xml">
+      <configuration name="ViewBlogPostsPage.blog_posts_titles_are_shown" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="BlogPostTest_it_has_a_title - 2019.02.15 at 18h 47m 47s.xml">
+      <configuration name="BlogPostTest.it_has_a_title" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="BlogPostTest_it_has_a_title - 2019.02.15 at 18h 47m 56s.xml">
+      <configuration name="BlogPostTest.it_has_a_title" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="BlogPostTest_it_has_a_title - 2019.02.15 at 18h 48m 13s.xml">
+      <configuration name="BlogPostTest.it_has_a_title" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="BlogPostTest_it_has_a_title - 2019.02.15 at 18h 48m 29s.xml">
+      <configuration name="BlogPostTest.it_has_a_title" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ViewBlogPostsPage_blog_posts_titles_are_shown - 2019.02.15 at 18h 50m 16s.xml">
+      <configuration name="ViewBlogPostsPage.blog_posts_titles_are_shown" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ViewBlogPostsPage_blog_posts_titles_are_shown - 2019.02.15 at 18h 51m 21s.xml">
+      <configuration name="ViewBlogPostsPage.blog_posts_titles_are_shown" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3521000" />
+    <option name="totallyTimeSpent" value="4292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="734" extended-state="6" />
@@ -336,12 +350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/blog-posts/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_15_235158_create_blog_posts_table.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/factories/BlogPostFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -376,6 +384,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="342" column="20" selection-start-line="342" selection-start-column="20" selection-end-line="342" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_15_235158_create_blog_posts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/BlogPostTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+          <folding>
+            <element signature="e#30#47#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogPostController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -386,17 +418,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestResponse.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/blog-posts/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="342" column="20" selection-start-line="342" selection-start-column="20" selection-end-line="342" selection-end-column="20" />
+        <state relative-caret-position="303">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/ViewBlogPostsPage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="538">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="e#33#50#0#PHP" expanded="true" />
           </folding>

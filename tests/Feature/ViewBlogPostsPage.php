@@ -46,4 +46,18 @@ class ViewBlogPostsPage extends TestCase
         $this->assertTrue($response->data('blogPosts')[1]->is($blogPostA));
         $this->assertTrue($response->data('blogPosts')[2]->is($blogPostC));
     }
+
+    /**
+     * @test
+     */
+    public function blog_posts_titles_are_shown()
+    {
+        factory(BlogPost::class)->create(['title' => 'title']);
+
+        $response = $this->get('/admin/blog/posts');
+
+        $response->assertSuccessful()
+                 ->assertSee('title');
+
+    }
 }

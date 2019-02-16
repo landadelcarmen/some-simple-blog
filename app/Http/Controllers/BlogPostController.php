@@ -11,7 +11,7 @@ class BlogPostController extends Controller
     public function index()
     {
 
-        $blogPosts = BlogPost::all();
+        $blogPosts = BlogPost::latest()->get();
 
         return view('blog-posts.index', compact('blogPosts'));
     }

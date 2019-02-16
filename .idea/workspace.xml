@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8a916b4-aae8-4b68-b29a-9692d2c52ada" name="Default Changelist" comment="" />
+    <list default="true" id="c8a916b4-aae8-4b68-b29a-9692d2c52ada" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogPostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogPostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ViewBlogPostsPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ViewBlogPostsPage.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,13 +17,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="58">
-                <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/tests/Feature/ViewBlogPostsPage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <folding>
+                <element signature="e#33#50#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,11 +43,11 @@
       <list>
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/BlogPostController.php" />
         <option value="$PROJECT_DIR$/database/factories/BlogPostFactory.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/ViewBlogPostsPage.php" />
         <option value="$PROJECT_DIR$/tests/TestCase.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/BlogPostController.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/ViewBlogPostsPage.php" />
       </list>
     </option>
   </component>
@@ -208,9 +211,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.ViewBlogPostsPage.it_lists_the_blog_posts">
+  <component name="RunManager" selected="PHPUnit.ViewBlogPostsPage.blog_posts_are_listed_in_reverse_chronological_order">
     <configuration name="ViewBlogPostsPage" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ViewBlogPostsPage" file="$PROJECT_DIR$/tests/Feature/ViewBlogPostsPage.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ViewBlogPostsPage.blog_posts_are_listed_in_reverse_chronological_order" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ViewBlogPostsPage" file="$PROJECT_DIR$/tests/Feature/ViewBlogPostsPage.php" method="blog_posts_are_listed_in_reverse_chronological_order" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="ViewBlogPostsPage.it_lists_the_blog_posts" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -223,8 +230,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.ViewBlogPostsPage.it_lists_the_blog_posts" />
+        <item itemvalue="PHPUnit.ViewBlogPostsPage.blog_posts_are_listed_in_reverse_chronological_order" />
         <item itemvalue="PHPUnit.ViewBlogPostsPage" />
+        <item itemvalue="PHPUnit.ViewBlogPostsPage.it_lists_the_blog_posts" />
       </list>
     </recent_temporary>
   </component>
@@ -238,26 +246,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550273247807</updated>
-      <workItem from="1550273249502" duration="2290000" />
+      <workItem from="1550273249502" duration="3521000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ViewBlogPostsPage_it_lists_the_blog_posts - 2019.02.15 at 17h 56m 13s.xml">
-      <configuration name="ViewBlogPostsPage.it_lists_the_blog_posts" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ViewBlogPostsPage_it_lists_the_blog_posts - 2019.02.15 at 17h 56m 23s.xml">
-      <configuration name="ViewBlogPostsPage.it_lists_the_blog_posts" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ViewBlogPostsPage_it_lists_the_blog_posts - 2019.02.15 at 17h 56m 34s.xml">
-      <configuration name="ViewBlogPostsPage.it_lists_the_blog_posts" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ViewBlogPostsPage_it_lists_the_blog_posts - 2019.02.15 at 18h 06m 17s.xml">
-      <configuration name="ViewBlogPostsPage.it_lists_the_blog_posts" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ViewBlogPostsPage_it_lists_the_blog_posts - 2019.02.15 at 18h 06m 29s.xml">
-      <configuration name="ViewBlogPostsPage.it_lists_the_blog_posts" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="ViewBlogPostsPage_it_lists_the_blog_posts - 2019.02.15 at 18h 06m 36s.xml">
       <configuration name="ViewBlogPostsPage.it_lists_the_blog_posts" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -273,9 +266,24 @@
     <history-entry file="ViewBlogPostsPage_it_lists_the_blog_posts - 2019.02.15 at 18h 09m 24s.xml">
       <configuration name="ViewBlogPostsPage.it_lists_the_blog_posts" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="ViewBlogPostsPage_blog_posts_are_listed_in_reverse_chronological_order - 2019.02.15 at 18h 26m 13s.xml">
+      <configuration name="ViewBlogPostsPage.blog_posts_are_listed_in_reverse_chronological_order" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ViewBlogPostsPage_blog_posts_are_listed_in_reverse_chronological_order - 2019.02.15 at 18h 31m 47s.xml">
+      <configuration name="ViewBlogPostsPage.blog_posts_are_listed_in_reverse_chronological_order" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ViewBlogPostsPage - 2019.02.15 at 18h 31m 50s.xml">
+      <configuration name="ViewBlogPostsPage" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ViewBlogPostsPage_blog_posts_are_listed_in_reverse_chronological_order - 2019.02.15 at 18h 41m 49s.xml">
+      <configuration name="ViewBlogPostsPage.blog_posts_are_listed_in_reverse_chronological_order" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ViewBlogPostsPage_blog_posts_are_listed_in_reverse_chronological_order - 2019.02.15 at 18h 42m 03s.xml">
+      <configuration name="ViewBlogPostsPage.blog_posts_are_listed_in_reverse_chronological_order" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2290000" />
+    <option name="totallyTimeSpent" value="3521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="734" extended-state="6" />
@@ -314,13 +322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestResponse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/Response.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -348,20 +349,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogPostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="e#40#57#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Assert.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10179">
           <caret line="409" column="27" selection-start-line="409" selection-start-column="27" selection-end-line="409" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="58">
+            <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -375,23 +376,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ViewBlogPostsPage.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogPostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="235">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding>
-            <element signature="e#33#50#0#PHP" expanded="true" />
+            <element signature="e#40#57#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="58">
-            <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="342" column="20" selection-start-line="342" selection-start-column="20" selection-end-line="342" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ViewBlogPostsPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="e#33#50#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

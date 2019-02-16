@@ -21,4 +21,14 @@ class BlogPostTest extends TestCase
 
         $this->assertDatabaseHas('blog_posts', ['title' => $blogPost->title]);
     }
+
+    /**
+     * @test
+     */
+    public function it_has_a_body()
+    {
+        $blogPost = factory(BlogPost::class)->create(['body' => 'lorem ipsum']);
+
+        $this->assertDatabaseHas('blog_posts', ['body' => $blogPost->body]);
+    }
 }

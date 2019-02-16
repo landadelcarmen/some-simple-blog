@@ -2,6 +2,7 @@
 
 namespace Tests\Feature;
 
+use App\BlogCategory;
 use App\BlogPost;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
@@ -74,7 +75,23 @@ class ViewBlogPostsPage extends TestCase
                 ->assertSee(Str::limit($blogPost->body, 100, '...'));
 
         $this->assertTrue($response->data('blogPosts')[0]->body <= 103);
+    }
 
+    /**
+     * @test
+     */
+    public function blog_posts_categories_are_shown()
+    {
+        $blogPost = factory(BlogPost::class)->create();
+
+        $category = factory(BlogCategory::class)->create(['title' => 'lorem ipsum']);
+
+        $blogPost->categories()->sync($category);
+
+        $response = $this->get('/admin/blog/posts');
+
+        $response->assertSuccessful()
+                 ->assertSee($category->title);
 
     }
 }

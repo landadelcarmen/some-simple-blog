@@ -12,6 +12,10 @@
      {{ $blogPost->title }}
 
      {{ $blogPost->body }}
+
+     @foreach($blogPost->categories as $category)
+        {{$category->title}}
+     @endforeach
  @endforeach
 </body>
 </html>

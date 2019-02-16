@@ -4,6 +4,7 @@ namespace Tests\Feature;
 
 use App\BlogPost;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Str;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -58,6 +59,22 @@ class ViewBlogPostsPage extends TestCase
 
         $response->assertSuccessful()
                  ->assertSee('title');
+    }
+
+    /**
+     * @test
+     */
+    public function blog_posts_body_excerpt_are_shown()
+    {
+        $blogPost = factory(BlogPost::class)->create([ 'body' => str_random(130) ]);
+
+        $response = $this->get('/admin/blog/posts');
+
+        $response->assertSuccessful()
+                ->assertSee(Str::limit($blogPost->body, 100, '...'));
+
+        $this->assertTrue($response->data('blogPosts')[0]->body <= 103);
+
 
     }
 }

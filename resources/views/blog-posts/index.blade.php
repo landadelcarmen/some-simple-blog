@@ -10,6 +10,8 @@
 <body>
  @foreach($blogPosts as $blogPost)
      {{ $blogPost->title }}
+
+     {{ $blogPost->body }}
  @endforeach
 </body>
 </html>
